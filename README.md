@@ -1,4 +1,4 @@
-# Still in the development process...
+#The project is done.
 
 # Getting Started with Create React App
 
