@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css';
+import SingleCard from './components/SingleCard/SingleCard';
 
 const cardImages = [
   {"src": "/img/helmet-1.png"},
@@ -31,6 +32,7 @@ const [turns, setTurns] = useState(0)
     <div className="App">
       <h1>Magic Match</h1>
       <button onClick={shuffleCards}>New Game</button>
+        <SingleCard cards={cards} />
     </div>
   );
 }
